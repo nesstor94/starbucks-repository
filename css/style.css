@@ -480,3 +480,23 @@
 		width: 90%;
 	}
 }
+
+
+@media (min-width: 960px) {
+	.header__nav-link {
+		margin-left: 1.15em;
+		font-size: 1.15rem;
+	}
+	.main__title {
+		font-size: 4rem;
+	}
+
+	.card__container-btn {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.cards__card-btn--row {
+		margin-left: 0.75em;
+	}
+}
