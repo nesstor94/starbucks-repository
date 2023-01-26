@@ -93,3 +93,72 @@
 .gallery__img {
 	margin-top: 1.5em;
 }
+
+
+.contact {
+	background-color: #141414;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	padding: 2em 0;
+}
+
+.contact__title {
+	color: #006241;
+	text-align: center;
+	font-size: 1.75rem;
+	margin: 1em 0;
+}
+
+.contact__label {
+	font-size: 1.15rem;
+}
+
+.contact__input,
+.contact__textarea {
+	padding: 0.5em 0.25em;
+	width: 100%;
+	border-radius: 0.5em;
+	border: none;
+	margin-bottom: 0.85em;
+	resize: none;
+}
+
+.contact__form-btn {
+	border-radius: 0.5em;
+	font-size: 0.85rem;
+	padding: 0.25em 3em;
+	margin-top: 0.5em;
+	transition: all 0.5s;
+	width: max-content;
+}
+
+.contact__form-btn:hover {
+	background: rgb(215, 215, 0);
+	border: 2px solid rgb(215, 215, 0);
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+	color: #006241;
+	font-weight: bolder;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+	background: #000;
+	color: #fff;
+}
+
+.contact__textarea {
+	display: block;
+}
+
+.contact__form {
+	background-color: #006241;
+	width: 90%;
+	margin: 0 auto 1.25em;
+	display: flex;
+	flex-direction: column;
+	padding: 0.75em;
+}
