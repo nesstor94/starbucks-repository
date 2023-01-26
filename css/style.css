@@ -500,3 +500,53 @@
 		margin-left: 0.75em;
 	}
 }
+
+@media (min-width: 1024px) {
+	.cards__card-title {
+		font-size: 1.75rem;
+	}
+
+	.cards__card-description {
+		font-size: 1.05rem;
+	}
+
+	.main__img {
+		width: 27em;
+	}
+
+	.main__title {
+		font-size: 4.5rem;
+		width: 80%;
+	}
+
+	.main__description {
+		font-size: 1.15rem;
+		line-height: 1.7em;
+	}
+
+	.contact__form {
+		background-color: #006241;
+		width: 40em;
+		margin: 0 auto 3em;
+		display: flex;
+		flex-direction: column;
+		padding: 1.75em;
+	}
+
+	.contact__container-input {
+		margin-bottom: 1em;
+	}
+
+	.contact__textarea {
+		height: 8em;
+	}
+	.footer {
+		padding: 5em 0;
+	}
+
+	.footer__icon {
+		color: #006241;
+		font-size: 1.5rem;
+		margin-left: 0.85em;
+	}
+}
