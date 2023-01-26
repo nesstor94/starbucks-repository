@@ -48,3 +48,31 @@
 	color: white;
 	font-size: 2.5rem;
 }
+
+.main {
+	width: 90%;
+	margin: 125px auto 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main__title {
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 1.15em;
+}
+
+.main__title--green {
+	color: #006241;
+}
+
+.main__description {
+	font-weight: bolder;
+	margin-top: 1.25em;
+	line-height: 1.5em;
+}
+
+.main__img {
+	display: none;
+	user-select: none;
+}
