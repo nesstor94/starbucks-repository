@@ -292,3 +292,70 @@
 	color: #09aa00;
 	text-decoration: none;
 }
+
+@media (min-width: 470px) {
+	.main__title {
+		font-weight: bold;
+		font-size: 4.5rem;
+		line-height: 1.15em;
+	}
+
+	.main__description {
+		font-size: 1.15rem;
+	}
+
+	.contact__title {
+		font-size: 2.75rem;
+	}
+
+	.contact__form {
+		background-color: #006241;
+		width: 90%;
+		margin: 0 auto 1.25em;
+		display: flex;
+		flex-direction: column;
+		padding: 1.2em;
+	}
+
+	.contact__label {
+		font-size: 1.25rem;
+	}
+
+	.contact__form-btn {
+		border-radius: 0.75em;
+		font-size: 1rem;
+		padding: 0.25em 5em;
+		margin-top: 0.5em;
+		width: max-content;
+	}
+
+	.contact__input,
+	.contact__textarea {
+		margin-top: 0.5em;
+		margin-bottom: 0.85em;
+		resize: none;
+	}
+
+	.cards__circle {
+		background: #d8f007;
+		width: 3em;
+		height: 3em;
+		font-size: 1.5rem;
+		border-radius: 50%;
+		top: -25px;
+		right: -25px;
+	}
+
+	.footer__links-user-btn {
+		font-size: 1.2rem;
+	}
+
+	.footer__icon {
+		color: #006241;
+		font-size: 1.3rem;
+	}
+
+	.footer__contact-us {
+		font-size: 1.2rem;
+	}
+}
